@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Zavanah-rae, my love.</strong>
+                        <p>
+                            I know that I've made empty promises before, and I know that
+                            this will sound like one to, but I will show you that I'm
+                            changing and I'll be a better man when you come back to  us.
+                            I'll always be by your side (it may not be physically), so
+                            just message me, call me, whatever. I'll be there for you.
+                            I know I'm still lacking but I'll prove with my actions that
+                            I truly care, and adore you, and I want to be present in our
+                            relationship. I trust that you'll come back when you're ready,
+                            and I'll stay for as long as I physically can, so you can take
+                            your time in thinking about us. If you're ever in need of help
+                            I'm always just one text, or one call away, and I'll always be
+                            supporting you from behind. I will always love you so very much
+                            and I'll keep on being yours, and yours alone. I love you sooo
+                            very much darling, and I know this is kind of long and formal
+                            but I just wanted to say that even though I'm not used to
+                            showing what I feel, I'll try as much as I can if it's for
+                            you, and  I'll do my best to not make you feel alone in the
+                            situations that you're going through. I love you so very much
+                            my dear princess, mwuaaahh♥♥
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
